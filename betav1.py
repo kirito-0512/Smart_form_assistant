@@ -89,7 +89,7 @@ def voice_recognizer():
               
         except sr.UnknownValueError:
             print("unknown error occured")
-        
+ #dependent on the system       
 def ocr():
     msg1 = tk.Label(text = "Waiting for result",font = ("Times New Roman",12),bg = 'Cyan')
     msg1.place(x = 630,y=210)
@@ -130,7 +130,7 @@ def auto(text):
     option.add_experimental_option("excludeSwitches", ['enable-automation']);
 #option.add_argument("--headless") Use this and the following option to run Headless
 #option.add_argument("disable-gpu")
-    browser = webdriver.Chrome(executable_path=r"C:\Users\Hrudai Aditya\Desktop\chromedriver", options=option)
+    browser = webdriver.Chrome(executable_path=r"chromedriver.exe", options=option)
 
     browser.get("https://docs.google.com/forms/d/e/1FAIpQLSfe4EtquGpr_yKtBF9G5OhkH6wTkFhY15JtYGCDDXUadePOZA/viewform?vc=0&c=0&w=1&flr=0")
 
