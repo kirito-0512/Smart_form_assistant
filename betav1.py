@@ -35,7 +35,7 @@ fname = Label(window, text = "Enter address of Gform",font =("Times New Roman", 
 fname.place(x = 5, y= 115)
 #lname = tk.Label(text = "Last Name",font = ("Times New Roman",13),bg = 'LightSkyBlue2')
 #lname.place(x=550, y= 110)
-photo = PhotoImage(file = r"C:\Users\Hrudai Aditya\Desktop\icon.png")
+photo = PhotoImage(file = r"icon.png")
 photoimage = photo.subsample(3, 3)
 Button(window,image = photoimage,
                     compound = LEFT).pack(side = RIGHT)
